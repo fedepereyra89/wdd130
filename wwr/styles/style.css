@@ -229,6 +229,64 @@ main section img {
     margin-top: 100px;
 }
 
+
+.main-title {
+    font-family: "Roboto Slab";
+    text-align: center;
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: rgb(147, 19, 19);
+    padding-top: 15px ;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);    
+}
+
+.msgn {
+    background-color: #6f7364;
+    color: rgb(37, 28, 5);
+    padding: 25px 40px;
+    margin-top: 200px;
+    line-height: 1.5em;
+    grid-column: 9/14;
+    grid-row: 2/4;
+    text-align: center;
+    border-radius: 70px;
+    border: 10px solid rgb(37, 28, 5);
+}
+
+.msgn p {
+    padding-bottom: 15px;
+    color: rgb(37, 28, 5);
+    font-size: .8em;
+    text-align: left;    
+}
+
+.rafting {
+    margin-top: 200px;
+    grid-column: 2/8;
+    grid-row: 2/3;
+    width: 100%;
+    border: 10px solid #d9c2a3;
+}
+
+.rafting2 {
+    margin-top: 200px;
+    grid-column: 2/8;
+    grid-row: 3/4;
+    width: 100%;
+    border: 10px solid #d9c2a3;
+}
+
+.river-wide {
+    width: 100%;
+    grid-column: 2/14;
+    border: 10px solid #d9c2a3;    
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
