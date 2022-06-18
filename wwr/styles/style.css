@@ -241,7 +241,7 @@ main section img {
 }
 
 .main-grid {
-    display: block;
+    display: grid;
     grid-template-columns: repeat(14, 1fr);    
     height: auto;
 }
