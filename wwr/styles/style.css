@@ -243,7 +243,6 @@ main section img {
 .main-grid {
     display: grid;
     grid-template-columns: repeat(14, 1fr);    
-    height: auto;
 }
 
 .msgn {
@@ -327,5 +326,9 @@ main section img {
     }
     footer {
         margin-top: 25px;
+    }
+    .main-grid {
+        display: block;
+        height: auto;
     }
 }
