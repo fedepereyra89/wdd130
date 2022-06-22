@@ -246,8 +246,8 @@ main section img {
 }
 
 .msgn {
-    background-color: #6f7364;
-    color: rgb(37, 28, 5);
+    background-color: #dac591;
+    color: rgb(37, 28, 5);;
     padding: 25px 40px;
     margin-top: 200px;
     line-height: 1.5em;
@@ -260,7 +260,7 @@ main section img {
 
 .msgn p {
     padding-bottom: 15px;
-    color: rgb(37, 28, 5);
+    color:rgb(37, 28, 5);;
     font-size: .8em;
     text-align: left;    
 }
