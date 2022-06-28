@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mr+Dafoe&family=Roboto+Slab&display=swap');
+
+:root {
+--heading-font: "Mr Dafoe";
+--paragraph-font: Mr Dafoe, Roboto Slab, lobster;
+}
+
+h2 {
+    text-align: center;
+    font-family: lobster;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+
+body {
+    background-color: #e6ccb2;
+    font-family: Roboto Slab; 
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#content {
+    max-width: 1600px;
+    margin:0 auto;
+}
+
+.logo {
+    width: 100px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+header {
+    background-color: #7f5539;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-size: 50px;
+}
+
+nav a:hover {
+    color: rgb(219, 146, 83);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e6ccb2;
+    text-align: center;
+    padding: 35px;
+}
+
+.home-grid { 
+    display:grid; 
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto;
+}
+
+.main-title {
+    font-family: "Mr Dafoe";
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 100PX;
+    color: #7f5539;
+    text-align: center;
+}
+
+
+.card-img  {
+    box-shadow: 5px 5px 10px 10px #7f5539;
+    width: 100%;
+}
+
+
+.hexagonal-card {
+    grid-column: 2/4;
+    grid-row: auto;
+    margin-top: 100px;
+    margin-bottom: 100PX;
+}
+
+.algarrobo-card {
+    grid-column: 6/8;
+    grid-row: auto;
+    margin-top: 100px;
+    margin-bottom: 100PX;
+}
+
+.algarrobo-hexagonal-card {  
+    grid-column: 2/8;
+    grid-row: auto;
+    margin-top: 50px;
+    margin-bottom: 50PX;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+
+footer {
+    background-color: #7f5539;
+    color: #e6ccb2;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #e6ccb2;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px ;
+}
+
+
+footer h3 {
+    color:#e6ccb2;
+}
+
+footer a:hover {
+    color: rgb(219, 146, 83);
+}
+
+@media screen and (max-width: 900px) {
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .hexagonal-card, .algarrobo-card, .algarrobo-hexagonal-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+    .main-grid {
+        display: block;
+        height: auto;
+    }
+}
