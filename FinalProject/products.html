@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/personalpage.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
     <div id="content">
         <header>
             <a id="logo_link" href="index.html">
-                <img class="logo" src="images/arkadia.jpeg" alt="Arkadia Deco'">
+                <img class="logo" src="images/arkadia.jpg" alt="Arkadia Deco'">
             </a>
             <nav>
                 <a href="index.html">Home</a>
@@ -18,33 +19,34 @@
                 <a href="recommenations.html">Recommenations</a>
             </nav>
         </header>    
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <section id="main-title">
             <h1 class="main-title">Products</h1>
         </section>
-        <section class="mpp">
-            <h4>Here at Arkadia Deco', we take our work seriously to offer you the best product. 
+        <div class="mpp">
+            <p>Here at Arkadia Deco', we take our work seriously to offer you the best product. 
             Here are some of them. First, we cure the Mate, so it is ready for use. 
             Usually this is something you would do but why do we do it? Because in that way we make 
             sure that the wood does not crack and ruin the work we do on the outside. 
             After painting it with one of our designs or the one you choose, we give it a few coats of 
-            lacquer to ensure that the paint lasts much longer.</h4>   
-        </section>
-        <main class="Products-grid">
-            <section class="4-mates-claros-card">
-                <img class="card-img" src="images/4-mates-claros.jpg" alt="mate claros">
+            lacquer to ensure that the paint lasts much longer.</p>   
+        </div>
+        <main class="products-grid">
+            <section class="cuatro-mates-claros-card">
+                <img class="card-img" src="images/cuatro-mates-claros.jpg" alt="mate claros">
                 <h2>Hand Painted and lacquer</h2>
             </section>
             <section class="tres-mates-card">
-            <img class="card-img" src="images/3-mates.jpg" alt="tres Mates">
+            <img class="card-img" src="images/tres-mates.jpg" alt="tres Mates">
             <h2>Hand Painted and lacquer</h2>
             </section>
-            <section class="4-mates-oscuro-cards">   
-                <img class="card-img" src="images/4-mates-oscuros.jpg" alt="mates oscuros">
+            <section class="cuatro-mates-oscuros-cards">   
+                <img class="card-img" src="images/cuatro-mates-oscuros.jpg" alt="mates oscuros">
                 <h2>Hand Painted and lacquer</h2>
             </section>
             <section class="mate-yerbatero-card">
-                <img class="camping-card" src="images/Juego-mate-y-yerbatero.jpeg" alt="mate yerbatero">
-                <h2>"Natural"</h2>
+                <img class="card-img" src="images/Juego-mate-y-yerbatero.jpeg" alt="mate yerbatero">
+                <h2>Natural</h2>
             </section>
             <section class="mate-frases-card">
                 <img class="card-img" src="images/Mate-frases.jpg" alt=" frases">
@@ -75,5 +77,26 @@
             </div>
         </footer>
     </div>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 </html>
