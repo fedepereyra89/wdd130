@@ -15,6 +15,13 @@ h3 {
     font-size: 40px;
 }
 
+h4 {
+    text-align: center;
+    font-family: roboto slab;
+    font-size: 30px;
+    width: 100%;
+}
+
 body {
     background-color: #e6ccb2;
     font-family: Roboto Slab; 
@@ -33,6 +40,13 @@ body {
 
 .mpp {
     width: 82%;
+    margin: 0 auto;
+    font-family: roboto slab;
+    font-size: 30px;
+    text-align: center;
+}
+.mrp {
+    width: 100%;
     margin: 0 auto;
     font-family: roboto slab;
     font-size: 30px;
@@ -100,6 +114,9 @@ nav a {
 .card-img  {
     box-shadow: 5px 5px 10px 10px #7f5539;
     width: 100%;
+}
+.card-imgr {
+    border: 10px solid #ede0d4;
 }
 
 /*home page*/
@@ -201,6 +218,38 @@ nav a {
 
 /* recommenations*/
 
+.mate-1-card {
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10%;
+}
+.mate-2-card {
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10%;
+}.mate-3-card {
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10%;
+}.mate-4-card {
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10%;
+}.mate-5-card {
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10%;
+}.mate-6-card {
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10%;
+}
 main section img {
     box-sizing: border-box;
 }
